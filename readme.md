@@ -27,14 +27,12 @@ This repository includes the following projects from the course:
 2. **week 2: [Basic Node and Express]**
    - **Description:** Node.js is a JavaScript runtime that allows developers to write backend (server-side) programs in JavaScript. Node.js comes with a handful of built-in modules — small, independent programs — that help with this. Some of the core modules include HTTP, which acts like a server, and File System, a module to read and modify files..
    - **Technologies Used:** node.js , expess.js , javascript.
-   - **Instructions:** How to run or test the project.
+
 
 3. **week 3: [MongoDB and Mongoose]**
    - **Description:** MongoDB is a database application that stores JSON documents (or records) that you can use in your application. Unlike SQL, another type of database, MongoDB is a non-relational or "NoSQL" database. This means MongoDB stores all associated data within one record, instead of storing it across many preset tables as in a SQL database..
    - **Technologies Used:** express.js, node.js , mongoos, mongoDB.
-   - **Instructions:** How to run or test the project.
 
-*(Continue listing projects as needed)*
 
 ## Setup and Installation
 
