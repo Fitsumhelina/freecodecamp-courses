@@ -22,11 +22,11 @@ This repository includes the following projects from the course:
 1. **week 1: [ Managing Packages with NPM ]**
    - **Description:** npm (Node Package Manager), is a command line tool to install, create, and share packages of JavaScript code written for Node.js. There are many open source packages available on npm, so before starting a project, take some time to explore so you don't end up recreating the wheel for things like working with dates or fetching data from an API..
    - **Technologies Used:** javascript , json.
-   - **Instructions:** How to run or test the project.
+   
 
-2. **week 2: [express.js]**
-   - **Description:** Brief overview of the project.
-   - **Technologies Used:** List of technologies used.
+2. **week 2: [Basic Node and Express]**
+   - **Description:** Node.js is a JavaScript runtime that allows developers to write backend (server-side) programs in JavaScript. Node.js comes with a handful of built-in modules — small, independent programs — that help with this. Some of the core modules include HTTP, which acts like a server, and File System, a module to read and modify files..
+   - **Technologies Used:** node.js , expess.js , javascript.
    - **Instructions:** How to run or test the project.
 
 3. **week 3: [mongoDB]**
