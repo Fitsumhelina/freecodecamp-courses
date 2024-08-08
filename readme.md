@@ -19,17 +19,17 @@ This repository contains projects and code examples from the FreeCodeCamp Back E
 
 This repository includes the following projects from the course:
 
-1. **Project 1: [Project Title]**
-   - **Description:** Brief overview of the project.
-   - **Technologies Used:** List of technologies used (e.g., Node.js, Express, MongoDB).
+1. **week 1: [ Managing Packages with NPM ]**
+   - **Description:** npm (Node Package Manager), is a command line tool to install, create, and share packages of JavaScript code written for Node.js. There are many open source packages available on npm, so before starting a project, take some time to explore so you don't end up recreating the wheel for things like working with dates or fetching data from an API..
+   - **Technologies Used:** javascript , json.
    - **Instructions:** How to run or test the project.
 
-2. **Project 2: [Project Title]**
+2. **week 2: [express.js]**
    - **Description:** Brief overview of the project.
    - **Technologies Used:** List of technologies used.
    - **Instructions:** How to run or test the project.
 
-3. **Project 3: [Project Title]**
+3. **week 3: [mongoDB]**
    - **Description:** Brief overview of the project.
    - **Technologies Used:** List of technologies used.
    - **Instructions:** How to run or test the project.
