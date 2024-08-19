@@ -1,31 +1,15 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-require('dotenv').config(); // Load environment variables from .env file
 
-
-// Connect to MongoDB using the connection string in the .env file
-
-const connectDB = async () => {
-  try{
-    await mongoose.connect(process.env.MONGO_URI,{
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log('Successfully connected to MongoDB');
-  }catch{
-    console.error('Error connecting to MongoDB:', error);
-  }
-};
-connectDB();
-
-// create schema for Person model 
+// Define the person schema
 const personSchema = new mongoose.Schema({
-  name: String,
+  name: { type: String, required: true },
   age: Number,
   favoriteFoods: [String]
 });
 
-const Person = mongoose.model('Person', personSchema);
-module.exports = Person;
+// Create the model
+Person = mongoose.model('Person', personSchema);
 
 const createAndSavePerson = (done) => {
   done(null /*, data*/);
@@ -75,10 +59,7 @@ const queryChain = (done) => {
   done(null /*, data*/);
 };
 
-
-
-//----- **DO NOT EDIT BELOW THIS LINE** ----------------------------------
-
+// Export the model and functions
 exports.PersonModel = Person;
 exports.createAndSavePerson = createAndSavePerson;
 exports.findPeopleByName = findPeopleByName;
