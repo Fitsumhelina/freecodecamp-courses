@@ -64,7 +64,7 @@ router.get("/is-mongoose-ok", function (req, res) {
   }
 });
 
-const Person = require("./myApp.js").PersonModel;
+
 
 router.use(function (req, res, next) {
   if (req.method !== "OPTIONS" && Person.modelName !== "Person") {
@@ -80,6 +80,20 @@ router.post("/mongoose-model", function (req, res, next) {
   p = new Person(req.body);
   res.json(p);
 });
+
+const { createManyPeople } = require('./myApp.js');
+
+// Example usage in an endpoint
+app.post('/create-many-people', (req, res, next) => {
+  createManyPeople(req.body, (err, people) => {
+    if (err) {
+      return next(err);
+    }
+    res.json(people);
+  });
+});
+
+// Example usage in an endpoint
 
 const createPerson = require("./myApp.js").createAndSavePerson;
 router.get("/create-and-save-person", function (req, res, next) {

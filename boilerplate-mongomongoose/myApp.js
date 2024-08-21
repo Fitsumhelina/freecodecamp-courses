@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 
-mongoose.connect(process.env.mongoURI, {
+mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
@@ -37,9 +37,21 @@ const createAndSavePerson = (done) => {
   });
 };
 
+
+const arrayOfPeople = [
+  { name: 'John', age: 24, favoriteFoods: ['pizza', 'salad'] },
+  { name: 'Mary', age: 21, favoriteFoods: ['onions', 'chicken'] }
+];
+
+
 const createManyPeople = (arrayOfPeople, done) => {
-  done(null /*, data*/);
+  Person.create(arrayOfPeople, (err, people) => {
+    if (err) return done(err);
+    done(null, people);
+  });
 };
+
+
 
 const findPeopleByName = (personName, done) => {
   done(null /*, data*/);
