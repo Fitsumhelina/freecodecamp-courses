@@ -125,7 +125,15 @@ const removeManyPeople = (done) => {
 const queryChain = (done) => {
   const foodToSearch = "burrito";
 
-  done(null /*, data*/);
+  Person.find({food: foodToSearch})
+   .sort({name: 1})
+   .limit(2)
+   .select('-age')
+   .exec((err, data) => {
+      if (err) return done(err);
+      done(null, data);
+    });
+
 };
 
 // Export the model and functions
