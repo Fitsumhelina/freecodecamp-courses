@@ -6,6 +6,7 @@ const express = require('express');
 const app = express();
 ```
 
+
 - **Explanation**: This code initializes an Express application. `express` is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. The `app` variable is the main instance of the Express application.
 
 ### Enabling CORS (Cross-Origin Resource Sharing)
