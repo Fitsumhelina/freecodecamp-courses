@@ -1,5 +1,4 @@
 
----
 
 # FreeCodeCamp Back End Development and APIs
 
@@ -19,20 +18,17 @@ This repository contains projects and code examples from the FreeCodeCamp Back E
 
 This repository includes the following projects from the course:
 
-1. **week 1: [ Managing Packages with NPM ]**
-   - **Description:** npm (Node Package Manager), is a command line tool to install, create, and share packages of JavaScript code written for Node.js. There are many open source packages available on npm, so before starting a project, take some time to explore so you don't end up recreating the wheel for things like working with dates or fetching data from an API..
-   - **Technologies Used:** javascript , json.
-   
+1. **week 1: [Managing Packages with NPM]**
+   - **Description:** npm (Node Package Manager) is a command-line tool to install, create, and share packages of JavaScript code written for Node.js. There are many open-source packages available on npm, so before starting a project, take some time to explore so you don't end up recreating the wheel for things like working with dates or fetching data from an API.
+   - **Technologies Used:** JavaScript, JSON.
 
 2. **week 2: [Basic Node and Express]**
-   - **Description:** Node.js is a JavaScript runtime that allows developers to write backend (server-side) programs in JavaScript. Node.js comes with a handful of built-in modules — small, independent programs — that help with this. Some of the core modules include HTTP, which acts like a server, and File System, a module to read and modify files..
-   - **Technologies Used:** node.js , expess.js , javascript.
-
+   - **Description:** Node.js is a JavaScript runtime that allows developers to write backend (server-side) programs in JavaScript. Node.js comes with a handful of built-in modules — small, independent programs — that help with this. Some of the core modules include HTTP, which acts like a server, and File System, a module to read and modify files.
+   - **Technologies Used:** Node.js, Express.js, JavaScript.
 
 3. **week 3: [MongoDB and Mongoose]**
-   - **Description:** MongoDB is a database application that stores JSON documents (or records) that you can use in your application. Unlike SQL, another type of database, MongoDB is a non-relational or "NoSQL" database. This means MongoDB stores all associated data within one record, instead of storing it across many preset tables as in a SQL database..
-   - **Technologies Used:** express.js, node.js , mongoos, mongoDB.
-
+   - **Description:** MongoDB is a database application that stores JSON documents (or records) that you can use in your application. Unlike SQL, another type of database, MongoDB is a non-relational or "NoSQL" database. This means MongoDB stores all associated data within one record, instead of storing it across many preset tables as in a SQL database.
+   - **Technologies Used:** Express.js, Node.js, Mongoose, MongoDB.
 
 ## Setup and Installation
 
@@ -42,7 +38,7 @@ This repository includes the following projects from the course:
    ```
 2. **Navigate into the project directory:**
    ```bash
-   cd repository-name
+   cd freecodecamp-back-end-development-and-apis
    ```
 3. **Install dependencies (if applicable):**
    ```bash
@@ -52,6 +48,14 @@ This repository includes the following projects from the course:
    ```bash
    npm start
    ```
+
+## Certifications
+
+I have completed the FreeCodeCamp Back End Development and APIs course and received the certification for it.
+
+- **Certificate Link:** [FreeCodeCamp Back End Development and APIs Certification](https://www.freecodecamp.org/certification/fitsumhelina/back-end-development-and-apis)
+- **Certificate Image:**
+   ![FreeCodeCamp Back End Development and APIs Certificate](./../../Documents/cerifiacte/Screenshot%202024-09-06%20010226.png)
 
 ## Contributing
 
@@ -72,7 +76,6 @@ If you would like to contribute to this repository, please follow these steps:
    git push origin feature/YourFeature
    ```
 6. Create a new Pull Request.
-
 
 ## Acknowledgments
 
