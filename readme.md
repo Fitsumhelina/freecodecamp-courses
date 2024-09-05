@@ -55,7 +55,7 @@ I have completed the FreeCodeCamp Back End Development and APIs course and recei
 
 - **Certificate Link:** [FreeCodeCamp Back End Development and APIs Certification](https://www.freecodecamp.org/certification/fitsumhelina/back-end-development-and-apis)
 - **Certificate Image:**
-   ![FreeCodeCamp Back End Development and APIs Certificate](./../../Documents/cerifiacte/Screenshot%202024-09-06%20010226.png)
+   ![FreeCodeCamp Back End Development and APIs Certificate](https://media.licdn.com/dms/image/v2/D4E22AQEEMaoPzpFDug/feedshare-shrink_1280/feedshare-shrink_1280/0/1725573970220?e=1728518400&v=beta&t=fGExxsRAsZYYk-J9vuJulFrvDVP9PNVGfiUeYzZx5Qc)
 
 ## Contributing
 
